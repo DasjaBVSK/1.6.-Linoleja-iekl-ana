@@ -1,0 +1,7 @@
+A = float(input('linoleja cena (€/m2):'))
+
+B = float(input('telpas izmērs (m2):'))
+
+Price = (float(A) * float(B))
+
+print(Price)
