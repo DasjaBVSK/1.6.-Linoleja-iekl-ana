@@ -1,0 +1,12 @@
+import math
+A = float(input('linoleja cena (€/1m platumā):'))
+
+B = float(input('ruļļa platums:'))
+
+C = float(input ('telpas izmērs (m2):'))
+
+math.ceil(C)
+
+Price = (float(A) * float(B) * float(C))
+
+print((Price))
